@@ -1,43 +1,87 @@
 # FinanceApp
-### Projeto voltado à uma necessidade pessoal sobre o cuidado com minhas finanças
 
-### Descrição do projeto - Mobile (em espera)
+## 💰 Sobre o Projeto
 
- #### 🛠️ Tecnologias utilizadas 🛠️
+FinanceApp é uma aplicação desenvolvida para auxiliar no gerenciamento financeiro pessoal. O objetivo é proporcionar uma experiência simples e eficiente para acompanhar gastos, receitas e planejamento financeiro.
 
- - ⚛️ React Native 
- - 🛆 Expo
- - 🧰 TypeScript
- - 🪄 TailwindCSS 
+## 📱 Mobile (Em Espera)
 
- #### Códigos úteis para inicialização do projeto
+### 🚀 Tecnologias Utilizadas
 
- - No terminal, digite: ```cd mobile``` para entrar na pasta do projeto
- - ```yarn``` para inicializar a instalação das dependencias
- - ```yarn start``` para inicializar a execução do projeto
- - ```yarn tunnel``` caso esteja com problemas ao rodar a aplicação no WSL
+- ⚛️ **React Native**  
+- 🛆 **Expo**  
+- 🧰 **TypeScript**  
+- 🎨 **TailwindCSS**  
 
- ##### Imagem de como esta o projeto atualmente (em estado de espera)
+### 🛠️ Como Rodar o Projeto Mobile
 
- <img src="image.png" alt="Imagem do projeto front-end, aplicação de finanças com estados estaticos" />
+1. No terminal, acesse a pasta do projeto:
+   ```sh
+   cd mobile
+   ```
+2. Instale as dependências:
+   ```sh
+   yarn
+   ```
+3. Inicie o projeto:
+   ```sh
+   yarn start
+   ```
+4. Caso esteja utilizando WSL e tenha problemas na execução, utilize:
+   ```sh
+   yarn tunnel
+   ```
 
-<hr />
+### 📸 Preview Atual do Projeto
 
-### Descrição do projeto - Back (em desenvolvimento)
+<img src="image.png" alt="Imagem do projeto mobile - aplicação de finanças com estados estáticos" />
 
- #### 🛠️ Tecnologias utilizadas 🛠️
+---
 
- - ⚡ Fastify.JS 
- - 🛆 Prisma.ORM
- - 🧰 TypeScript
- - ⚙️ Zod 
- - 🐘 PostgreSQL
- - 🐋 Docker Compose
- - 
+## 🖥️ Backend (Em Desenvolvimento)
 
- #### Códigos úteis para inicialização do projeto
+### 🚀 Tecnologias Utilizadas
 
- - No terminal, digite: ```cd mobile``` para entrar na pasta do projeto
- - ```yarn``` para inicializar a instalação das dependencias
- - ```yarn start``` para inicializar a execução do projeto
- - A porta padrão da aplicação, esta definida como 8080
+- ⚡ **Fastify.JS**  
+- 🛆 **Prisma ORM**  
+- 🧰 **TypeScript**  
+- ⚙️ **Zod**  
+- 🐘 **PostgreSQL**  
+- 🐋 **Docker Compose**  
+
+### 🛠️ Como Rodar o Projeto Backend
+
+1. No terminal, acesse a pasta do projeto:
+   ```sh
+   cd backend
+   ```
+2. Instale as dependências:
+   ```sh
+   yarn
+   ```
+3. Inicie o backend:
+   ```sh
+   yarn start
+   ```
+4. O backend roda por padrão na porta **8080**.
+
+---
+
+## 📌 Próximos Passos
+
+- Finalizar o back-end
+- Dar continuidade a interface do aplicativo
+- Implementar autenticação de usuários
+- Criar dashboard interativo para melhor visualização de dados financeiros
+
+---
+
+### 👨‍💻 Sobre o Desenvolvedor
+
+Criado e mantido por **Clark**, apaixonado por desenvolvimento mobile e backend. Sempre buscando melhorar a experiência do usuário e otimizar a performance das aplicações.
+
+🔗 [LinkedIn](www.linkedin.com/in/clarkferreira) | 📧 [Email](amorimclark@gmail.com)
+
+---
+
+**Contribuições são bem-vindas!** Sinta-se à vontade para abrir issues e enviar PRs para melhorias no projeto. 🚀
